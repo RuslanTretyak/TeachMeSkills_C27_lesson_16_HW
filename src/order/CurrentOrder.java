@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class CurrentOrder {
-    private static Map<String, Client> clientWithOrder = new TreeMap<>();
+    private static final Map<String, Client> clientWithOrder = new TreeMap<>();
 
     public static void addClientWithOrder(Client client) {
         clientWithOrder.put(client.getPassNumber(), client);

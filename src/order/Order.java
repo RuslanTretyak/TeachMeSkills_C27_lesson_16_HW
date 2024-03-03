@@ -1,8 +1,8 @@
 package order;
 
 public class Order {
-    private String description;
-    private String article;
+    private final String description;
+    private final String article;
     private double price;
 
     public Order(String description, String article, double price) {
